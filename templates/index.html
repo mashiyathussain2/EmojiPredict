@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>Emojifier</h1>
+<form action = "" method= "POST">
+{% csrf_token %}
+<textarea name="content" cols="30" row="10">
+</textarea>
+<button type= "submit">Predict</button>
+</form>
+<p> {{content}}  {{emoji}} </p>
+</body>
+</html>
+
